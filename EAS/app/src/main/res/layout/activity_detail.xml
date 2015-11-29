@@ -1,0 +1,68 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.zhoujg77.eas.MainActivity" >
+
+	    <TextView
+	    android:id="@+id/type"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/type" />
+	    <TextView
+	    android:id="@+id/detail_type"    
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/type"/>
+	    <TextView
+	    android:id="@+id/date"
+	    android:layout_below="@id/type"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/date" />
+	    	    <TextView
+	        android:id="@+id/detail_date"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_above="@+id/qcode"
+	        android:layout_toRightOf="@+id/date" />
+	    	    
+	    <View
+	    android:id="@+id/qcode"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/date"
+        />
+	    	    	    <TextView
+	        android:id="@+id/detail_qcode"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_below="@+id/date"
+	        android:layout_toRightOf="@+id/qcode"
+	        />	  
+	    <TextView
+	    android:id="@+id/receipt"
+	    android:layout_below="@id/detail_qcode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/receipt" />
+
+	    <ImageView
+	        android:id="@+id/detailed_receipt"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignLeft="@+id/receipt"
+	        android:layout_alignParentBottom="true"
+	        android:layout_alignParentRight="true"
+	        android:layout_below="@id/receipt" />
+
+
+
+
+	           
+</RelativeLayout>

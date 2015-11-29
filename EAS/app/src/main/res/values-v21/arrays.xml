@@ -1,0 +1,17 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+	<string-array name="company">
+        <item>新航物流</item>
+        <item>慧扬科技</item>
+        <item>Google</item>
+    </string-array> 
+    <string-array name="wan_url">
+        <item></item>
+        <item>www</item>
+        <item>Google.com</item>
+    </string-array> 
+    <string-array name="lan_url">
+        <item>192.168.1.104/EAS</item>
+        <item>192.168.1.104/EAS</item>
+        <item></item>
+    </string-array>
+</resources>

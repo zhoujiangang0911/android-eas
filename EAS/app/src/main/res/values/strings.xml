@@ -1,0 +1,64 @@
+<resources>
+    <string name="app_name">EAS</string>
+    <string name="title_detail">物流通宝</string>
+    <string name="title_setting">设置</string>
+    <string name="title_history">上传记录</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">设置</string>
+    <string name="action_history">上传记录</string>
+    <string name="menu_settings">设置</string>
+    <string name="scan_text">将二维码放入框内, 即可自动扫描</string>
+    <string name="to_upload">待上传</string>
+    <string name="qcode">二维码：</string>
+    <string name="qcode_errmsg">二维码扫描失败，请重新扫描。</string>
+    <string name="contine_tocapture">二维码扫描成功，请对回单拍照。</string>
+    <string name="receiptadded">回单拍照成功。</string>
+    <string name="finish_uploading">上传完毕。</string>
+    <string name="errormsg">网络错误！</string>
+    <string name="to_receipt">回单</string>
+    <string name="to_start">发货</string>
+    <string name="upload">上传</string>
+    <string name="send_message">信息提取完成！</string>
+    <string name="qcode_invalid">无效的二维码！</string>
+    <string name="type">类    型：</string>
+    <string name="date">时    间：</string>
+    <string name="receipt">回    单：</string>
+    <string name="type_send">发货</string>
+    <string name="type_receipt">回单</string>
+    <string name="delete">删除</string>
+    <string name="delete_all">删除所有</string>
+    <string name="options">选项</string>
+    <string name="deleted">删除了</string>
+    <string name="item">项</string>
+    <string name="delete_ok">删除成功</string>
+    <string name="delete_fail">删除失败</string>
+    <!--  settings  -->
+    <string name="settings_url">网址</string>
+    <string name="settings_ownerInfo">个人信息</string>
+    <string name="settings_clear">清理存储空间</string>
+    <string name="settings_about">关于物流通宝</string>
+    <string name="settings_exit">退出</string>
+    <!--  URL page  -->
+    <string name="test">测试网络连接</string>
+    <string name="save">保存</string>
+    <string name="pls_input">或手动输入服务器网址/IP</string>
+    <string name="pls_select">请选择公司</string>
+    <string name="saved">保存成功</string>
+    <!-- owner page  -->
+    <string name="pls_input_name">请输入姓名</string>
+    <string name="pls_input_phone">请输入手机号码</string>
+    <!-- version info  -->
+    <string name="version_ch">慧扬科技    版权所有</string>
+    <string name="version_en1">Copyright 2013 2014 Wislight.</string>
+    <string name="version_en2">All Rights Reserved</string>
+    <string name="delete_file_result">删除了%1$d个图片</string>
+    <string name="connect_ok">连接成功！</string>
+    <string name="connect_fail">连接失败！请确保数据业务/WIFI已经打开。</string>
+    <string name="config">配置</string>
+    <string name="pls_config">配置信息不完善，请进行配置！</string>
+    <string name="pls_select_net">网络：</string>
+    <string name="finish">完成</string>
+    <string name="error_url">网址不完整，请输入</string>
+    <string name="error_name">姓名没有输入，请输入</string>
+    <string name="error_phone">手机号码不完整，请输入</string>
+</resources>
